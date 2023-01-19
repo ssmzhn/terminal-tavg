@@ -2,7 +2,7 @@ start: alarming
 
 alarming:
   subject: 闹钟
-  text: 
+  text:
     - （🎶我的鸡八岁了🎶它活得很快活🎶）
   type: dialogue
   next: close_alarm
@@ -67,7 +67,7 @@ mahiros_explanation:
     - （思维滞塞5s）
   type: branch
   branches:
-    D: 
+    D:
       text: 修 Dicker
       next: mahiro_fixing_dicker
     P:
@@ -84,7 +84,7 @@ mahiro_fixing_dicker:
 
 mahiro_watching_pornhub:
   subject: 真寻
-  text: 
+  text:
     - 我草……我还没开Por……
     - 不是你听我解释……
   type: dialogue
@@ -116,12 +116,9 @@ test1:
   type: dialogue
   next: done
 
-
 test2:
   subject: w0w2
   text:
     - 你先别急
   type: dialogue
   next: done
-
-
