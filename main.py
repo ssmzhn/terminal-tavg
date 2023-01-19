@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from play import display, select, display_mode, load_config
 import os
 import yaml
