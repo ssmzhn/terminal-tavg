@@ -1,0 +1,127 @@
+start: alarming
+
+alarming:
+  subject: 闹钟
+  text: 
+    - （🎶我的鸡八岁了🎶它活得很快活🎶）
+  type: dialogue
+  next: close_alarm
+
+close_alarm:
+  subject: 真寻
+  text:
+    - （关闹钟）
+    - 已经中午了吗...
+    - ？...好像有点不对劲
+    - 是不是感冒了...有点使不上力气...
+  type: dialogue
+  next: watch_into_tv
+
+watch_into_tv:
+  subject: 真寻
+  text:
+    - （看向电视）
+    - ！
+    - 这几把谁？
+    - 我……我吗？
+    - 不不不，冷静一下！
+  type: dialogue
+  next: introduction
+
+introduction:
+  subject: 真寻内心OS
+  text:
+    - 我绪山真寻，是一个孤高的自宅警备队队员，才不是这样的白毛美少女
+    - 现在这个样子，不是个娘们嘛！
+  type: dialogue
+  next: testing
+
+testing:
+  subject: 真寻
+  text:
+    - （看着自己胸部）
+    - （戳了戳）
+    - 我寻思我也没吃补子啊，怎么凸出来了……
+  type: dialogue
+  next: dick
+
+dick:
+  subject: 真寻
+  text:
+    - （想起了什么不得了的东西）
+    - 我草让我检查一下
+    - （内心OS）只是确认一下……确认……一下……
+  type: dialogue
+  next: mihari_came_in
+
+mihari_came_in:
+  subject: 美波里
+  text:
+    - 欧尼酱哦哈哟！
+  type: dialogue
+  next: mahiros_explanation
+
+mahiros_explanation:
+  subject: 真寻
+  text:
+    - （思维滞塞5s）
+  type: branch
+  branches:
+    D: 
+      text: 修 Dicker
+      next: mahiro_fixing_dicker
+    P:
+      text: 品鉴 Pxxxhub 上的高雅鉴作
+      next: mahiro_watching_pornhub
+
+mahiro_fixing_dicker:
+  subject: 真寻
+  text:
+    - 我草……不是，我dicker炸了，不对我在修dicker……也不对
+    - 我没有……你听我解释……
+  type: dialogue
+  next: miharis_notice1
+
+mahiro_watching_pornhub:
+  subject: 真寻
+  text: 
+    - 我草……我还没开Por……
+    - 不是你听我解释……
+  type: dialogue
+  next: miharis_notice2
+miharis_notice1:
+  subject: 美波里
+  text:
+    - （仔细端详）
+    - （掀起真寻的衣服仔细观看）
+    - 嗯……实验算是成功了
+    - 不过欧尼酱变成女孩子还在摆弄那一坨垃圾Node，可不是个好习惯哦
+  type: dialogue
+  next: test1
+
+miharis_notice2:
+  subject: 美波里
+  text:
+    - （仔细端详）
+    - （掀起真寻的衣服仔细观看）
+    - 嗯……实验算是成功了
+    - 不过，欧尼酱不用紧张，毕竟你现在好像没有那方面的需求了呢
+  type: dialogue
+  next: test1
+
+test1:
+  subject: Dr. NameSetter
+  text:
+    - 后面没做呢，你先别急
+  type: dialogue
+  next: done
+
+
+test2:
+  subject: w0w2
+  text:
+    - 你先别急
+  type: dialogue
+  next: done
+
+
